@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Used Cars</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/carCard.js" defer></script>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav><h1>Used Cars for Sale</h1></nav>
+    <div class="fullBody">
+      <aside>
+        <h2 class="filterHead">Car Filters</h2>
+        <div class="filterHolder">
+          <form class="filters">
+            <label for="yearMin">Min Year:</label>
+            <input type="text" name="yearMin" id="yearMin" value="" />
+
+            <label for="yearMax">Max Year:</label>
+            <input type="text" name="yearMax" id="yearMax" value="" />
+
+            <label for="makeF">Make:</label>
+            <select name="makeF" id="makeF" min="0" max="0" value=""></select>
+
+            <label for="milesF" id="mileLabel">Mileage: 0</label>
+            <input type="range" name="milesF" id="milesF" min="0" value="0" />
+
+            <label for="priceMin">Min Price:</label>
+            <input type="text" name="priceMin" id="priceMin" value="" />
+
+            <label for="priceMax">Max Price:</label>
+            <input type="text" name="priceMax" id="priceMax" value="" />
+
+            <label for="colorF">Color:</label>
+            <select name="colorF" id="colorF" value=""></select>
+          </form>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </aside>
+      <main class="cardHolder"></main>
+    </div>
+  </body>
+</html>
