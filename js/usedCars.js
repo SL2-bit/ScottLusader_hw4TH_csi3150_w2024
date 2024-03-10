@@ -23,7 +23,7 @@ const usedCars = [
     model: "Fusion",
     mileage: 35000,
     price: 16000,
-    color: "Black",
+    color: "Rainbow",
     gasMileage: "27 mpg",
   },
   {

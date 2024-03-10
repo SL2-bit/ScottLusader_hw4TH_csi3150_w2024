@@ -42,13 +42,13 @@ aside {
   min-height: 100vh;
 }
 
-.filterHead {
+.filterTitle {
   text-align: center;
   width: 100%;
 }
 
 .filters {
-  margin-top: 5px;
+  margin-top: 40%;
   height: fit-content;
 }
 
@@ -61,8 +61,13 @@ aside {
 }
 
 #submit {
-  margin-top: 5px;
+  margin-top: 20px;
   border-radius: 5%;
+  transition: all 0.3s ease;
+}
+#submit:hover {
+  background-color: #7ed57b;
+  border: 1px solid #000000;
 }
 
 .cardHolder {
@@ -79,8 +84,15 @@ aside {
   float: left;
   margin: 5px;
   width: 35%;
-  height: 275px;
+  height: 250px;
   text-align: center;
   align-content: center;
-  border: 1px solid black;
+  border: 3px solid rgb(78, 62, 62);
+  border-radius: 10%;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  background-color: #c6ca93;
+  border: 1px solid #b5ce70;
 }
